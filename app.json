@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "app",
+    "slug": "app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Fallalogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Esta aplicación necesita acceso a la cámara para tomar fotos de evidencias.",
+        "NSPhotoLibraryUsageDescription": "Esta aplicación necesita acceder a la fototeca para seleccionar imágenes de evidencia.",
+        "NSPhotoLibraryAddUsageDescription": "Se necesita permiso para guardar imágenes en la fototeca."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/Fallalogo.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d05abd37-3145-4748-a5d3-3464ace29188"
+      }
+    },
+    "owner": "javiandres333"
+    ,
+    "runtimeVersion": "1",
+    "updates": {
+      "url": "https://u.expo.dev/nickname"
+    }
+  }
+}
