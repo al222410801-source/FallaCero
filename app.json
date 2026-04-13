@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "FallaCero",
+    "slug": "FallaCero",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/Fallalogo.png",
@@ -30,25 +30,28 @@
       "permissions": [
         "CAMERA",
         "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
         "WRITE_EXTERNAL_STORAGE"
-      ]
+      ],
+      "package": "com.javiandres333.FallaCero"
     },
     "web": {
-      "favicon": "./assets/Fallalogo.png"
+      "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": "1",
+    "updates": {
+      "url": "https://u.expo.dev/cf24b67a-c8b5-4541-86ef-047fe1731cbf"
     },
     "plugins": [
       "expo-font"
     ],
     "extra": {
       "eas": {
-        "projectId": "d05abd37-3145-4748-a5d3-3464ace29188"
+        "projectId": "cf24b67a-c8b5-4541-86ef-047fe1731cbf"
       }
     },
     "owner": "javiandres333"
-    ,
-    "runtimeVersion": "1",
-    "updates": {
-      "url": "https://u.expo.dev/nickname"
-    }
   }
 }
